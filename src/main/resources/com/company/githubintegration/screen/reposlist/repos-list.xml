@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://reposList.caption">
+    <data>
+        <collection id="repositoriesDc" class="com.company.githubintegration.entity.Repository">
+            <fetchPlan extends="_base">
+                <property name="stargazersCount"/>
+            </fetchPlan>
+            <loader id="repositoriesDl"/>
+        </collection>
+    </data>
+    <layout expand="repositoriesTable">
+        <button id="doBtn" caption="Do"/>
+        <dataGrid id="repositoriesTable" width="100%" dataContainer="repositoriesDc">
+            <columns>
+                <column id="name" property="name"/>
+            </columns>
+        </dataGrid>
+    </layout>
+</window>

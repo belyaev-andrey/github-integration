@@ -1,0 +1,1674 @@
+{
+  "data": {
+    "permissions": {
+      "entities": [
+        {
+          "target": "User:create",
+          "value": 1
+        },
+        {
+          "target": "User:read",
+          "value": 1
+        },
+        {
+          "target": "User:update",
+          "value": 1
+        },
+        {
+          "target": "User:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanInfo:create",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanInfo:read",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanInfo:update",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanInfo:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelRoleModel:create",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelRoleModel:read",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelRoleModel:update",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelRoleModel:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:create",
+          "value": 1
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:read",
+          "value": 1
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:update",
+          "value": 1
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterValueComponent:create",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterValueComponent:read",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterValueComponent:update",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterValueComponent:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:create",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:read",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:update",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:delete",
+          "value": 1
+        },
+        {
+          "target": "UserInfo:create",
+          "value": 1
+        },
+        {
+          "target": "UserInfo:read",
+          "value": 1
+        },
+        {
+          "target": "UserInfo:update",
+          "value": 1
+        },
+        {
+          "target": "UserInfo:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_Setting:create",
+          "value": 1
+        },
+        {
+          "target": "ui_Setting:read",
+          "value": 1
+        },
+        {
+          "target": "ui_Setting:update",
+          "value": 1
+        },
+        {
+          "target": "ui_Setting:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_AttributeResourceModel:create",
+          "value": 1
+        },
+        {
+          "target": "sec_AttributeResourceModel:read",
+          "value": 1
+        },
+        {
+          "target": "sec_AttributeResourceModel:update",
+          "value": 1
+        },
+        {
+          "target": "sec_AttributeResourceModel:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:create",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:read",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:update",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:delete",
+          "value": 1
+        },
+        {
+          "target": "sys_KeyValueEntity:create",
+          "value": 1
+        },
+        {
+          "target": "sys_KeyValueEntity:read",
+          "value": 1
+        },
+        {
+          "target": "sys_KeyValueEntity:update",
+          "value": 1
+        },
+        {
+          "target": "sys_KeyValueEntity:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:create",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:read",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:update",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:create",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:read",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:update",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:delete",
+          "value": 1
+        },
+        {
+          "target": "data_ReferenceToEntity:create",
+          "value": 1
+        },
+        {
+          "target": "data_ReferenceToEntity:read",
+          "value": 1
+        },
+        {
+          "target": "data_ReferenceToEntity:update",
+          "value": 1
+        },
+        {
+          "target": "data_ReferenceToEntity:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanDomain:create",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanDomain:read",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanDomain:update",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanDomain:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_LogicalFilterCondition:create",
+          "value": 1
+        },
+        {
+          "target": "ui_LogicalFilterCondition:read",
+          "value": 1
+        },
+        {
+          "target": "ui_LogicalFilterCondition:update",
+          "value": 1
+        },
+        {
+          "target": "ui_LogicalFilterCondition:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_JpqlFilterCondition:create",
+          "value": 1
+        },
+        {
+          "target": "ui_JpqlFilterCondition:read",
+          "value": 1
+        },
+        {
+          "target": "ui_JpqlFilterCondition:update",
+          "value": 1
+        },
+        {
+          "target": "ui_JpqlFilterCondition:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourcePolicyModel:create",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourcePolicyModel:read",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourcePolicyModel:update",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourcePolicyModel:delete",
+          "value": 1
+        },
+        {
+          "target": "sys_LockDescriptor:create",
+          "value": 1
+        },
+        {
+          "target": "sys_LockDescriptor:read",
+          "value": 1
+        },
+        {
+          "target": "sys_LockDescriptor:update",
+          "value": 1
+        },
+        {
+          "target": "sys_LockDescriptor:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:create",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:read",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:update",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourceRoleEntity:create",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourceRoleEntity:read",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourceRoleEntity:update",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourceRoleEntity:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_PropertyFilterCondition:create",
+          "value": 1
+        },
+        {
+          "target": "ui_PropertyFilterCondition:read",
+          "value": 1
+        },
+        {
+          "target": "ui_PropertyFilterCondition:update",
+          "value": 1
+        },
+        {
+          "target": "ui_PropertyFilterCondition:delete",
+          "value": 1
+        },
+        {
+          "target": "sys_LockInfo:create",
+          "value": 1
+        },
+        {
+          "target": "sys_LockInfo:read",
+          "value": 1
+        },
+        {
+          "target": "sys_LockInfo:update",
+          "value": 1
+        },
+        {
+          "target": "sys_LockInfo:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_TablePresentation:create",
+          "value": 1
+        },
+        {
+          "target": "ui_TablePresentation:read",
+          "value": 1
+        },
+        {
+          "target": "ui_TablePresentation:update",
+          "value": 1
+        },
+        {
+          "target": "ui_TablePresentation:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_GroupFilterCondition:create",
+          "value": 1
+        },
+        {
+          "target": "ui_GroupFilterCondition:read",
+          "value": 1
+        },
+        {
+          "target": "ui_GroupFilterCondition:update",
+          "value": 1
+        },
+        {
+          "target": "ui_GroupFilterCondition:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterConfiguration:create",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterConfiguration:read",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterConfiguration:update",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterConfiguration:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:create",
+          "value": 1
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:read",
+          "value": 1
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:update",
+          "value": 1
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:delete",
+          "value": 1
+        },
+        {
+          "target": "Repository:create",
+          "value": 1
+        },
+        {
+          "target": "Repository:read",
+          "value": 1
+        },
+        {
+          "target": "Repository:update",
+          "value": 1
+        },
+        {
+          "target": "Repository:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_HeaderFilterCondition:create",
+          "value": 1
+        },
+        {
+          "target": "ui_HeaderFilterCondition:read",
+          "value": 1
+        },
+        {
+          "target": "ui_HeaderFilterCondition:update",
+          "value": 1
+        },
+        {
+          "target": "ui_HeaderFilterCondition:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanOperation:create",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanOperation:read",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanOperation:update",
+          "value": 1
+        },
+        {
+          "target": "ui_ManagedBeanOperation:delete",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterCondition:create",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterCondition:read",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterCondition:update",
+          "value": 1
+        },
+        {
+          "target": "ui_FilterCondition:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_BaseRoleModel:create",
+          "value": 1
+        },
+        {
+          "target": "sec_BaseRoleModel:read",
+          "value": 1
+        },
+        {
+          "target": "sec_BaseRoleModel:update",
+          "value": 1
+        },
+        {
+          "target": "sec_BaseRoleModel:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourceRoleModel:create",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourceRoleModel:read",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourceRoleModel:update",
+          "value": 1
+        },
+        {
+          "target": "sec_ResourceRoleModel:delete",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:create",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:read",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:update",
+          "value": 1
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:delete",
+          "value": 1
+        }
+      ],
+      "entityAttributes": [
+        {
+          "target": "User:firstName",
+          "value": 2
+        },
+        {
+          "target": "User:lastName",
+          "value": 2
+        },
+        {
+          "target": "User:password",
+          "value": 2
+        },
+        {
+          "target": "User:id",
+          "value": 2
+        },
+        {
+          "target": "User:version",
+          "value": 2
+        },
+        {
+          "target": "User:email",
+          "value": 2
+        },
+        {
+          "target": "User:enabled",
+          "value": 2
+        },
+        {
+          "target": "User:username",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanInfo:operations",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanInfo:propertyList",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanInfo:domain",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanInfo:description",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanInfo:objectName",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanInfo:className",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanInfo:attributes",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanInfo:id",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleModel:code",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleModel:customProperties",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleModel:rowLevelPolicies",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleModel:name",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleModel:description",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleModel:id",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleModel:source",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleModel:childRoles",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:captionPosition",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:parent",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:visible",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:localizedCaption",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:caption",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:styleName",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:valueComponent",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:required",
+          "value": 2
+        },
+        {
+          "target": "ui_AbstractSingleFilterCondition:enabled",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterValueComponent:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterValueComponent:defaultValue",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterValueComponent:componentName",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterValueComponent:styleName",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:updatedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:role",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:resource",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:type",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:policyGroup",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:version",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:deletedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:deleteTs",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:createdBy",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:effect",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:action",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:createTs",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:id",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyEntity:updateTs",
+          "value": 2
+        },
+        {
+          "target": "UserInfo:avatarUrl",
+          "value": 2
+        },
+        {
+          "target": "UserInfo:company",
+          "value": 2
+        },
+        {
+          "target": "UserInfo:id",
+          "value": 2
+        },
+        {
+          "target": "UserInfo:login",
+          "value": 2
+        },
+        {
+          "target": "UserInfo:email",
+          "value": 2
+        },
+        {
+          "target": "ui_Setting:createdBy",
+          "value": 2
+        },
+        {
+          "target": "ui_Setting:name",
+          "value": 2
+        },
+        {
+          "target": "ui_Setting:createTs",
+          "value": 2
+        },
+        {
+          "target": "ui_Setting:id",
+          "value": 2
+        },
+        {
+          "target": "ui_Setting:value",
+          "value": 2
+        },
+        {
+          "target": "ui_Setting:username",
+          "value": 2
+        },
+        {
+          "target": "sec_AttributeResourceModel:modify",
+          "value": 2
+        },
+        {
+          "target": "sec_AttributeResourceModel:view",
+          "value": 2
+        },
+        {
+          "target": "sec_AttributeResourceModel:name",
+          "value": 2
+        },
+        {
+          "target": "sec_AttributeResourceModel:caption",
+          "value": 2
+        },
+        {
+          "target": "sec_AttributeResourceModel:id",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:name",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:description",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:id",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:type",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:operation",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperationParameter:javaType",
+          "value": 2
+        },
+        {
+          "target": "sys_KeyValueEntity:idName",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:whereClause",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:customProperties",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:entityName",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:action",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:id",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:joinClause",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:type",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyModel:script",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:readable",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:readableWriteable",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:mbean",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:valueString",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:name",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:description",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:id",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:writeable",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanAttribute:type",
+          "value": 2
+        },
+        {
+          "target": "data_ReferenceToEntity:stringEntityId",
+          "value": 2
+        },
+        {
+          "target": "data_ReferenceToEntity:intEntityId",
+          "value": 2
+        },
+        {
+          "target": "data_ReferenceToEntity:entityId",
+          "value": 2
+        },
+        {
+          "target": "data_ReferenceToEntity:longEntityId",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanDomain:name",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanDomain:id",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:parent",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:visible",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:ownFilterConditions",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:localizedCaption",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:operationCaptionVisible",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:caption",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:styleName",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:operation",
+          "value": 2
+        },
+        {
+          "target": "ui_LogicalFilterCondition:enabled",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:captionPosition",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:parent",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:visible",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:caption",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:styleName",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:parameterName",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:required",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:enabled",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:parameterClass",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:hasInExpression",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:localizedCaption",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:where",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:join",
+          "value": 2
+        },
+        {
+          "target": "ui_JpqlFilterCondition:valueComponent",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyModel:customProperties",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyModel:resource",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyModel:effect",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyModel:scope",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyModel:action",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyModel:id",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyModel:type",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourcePolicyModel:policyGroup",
+          "value": 2
+        },
+        {
+          "target": "sys_LockDescriptor:name",
+          "value": 2
+        },
+        {
+          "target": "sys_LockDescriptor:timeoutSec",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:whereClause",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:updatedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:role",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:joinClause",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:type",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:version",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:deletedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:script",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:deleteTs",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:createdBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:entityName",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:action",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:createTs",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:id",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelPolicyEntity:updateTs",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:updatedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:code",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:resourcePolicies",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:description",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:version",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:childRoles",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:deletedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:deleteTs",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:createdBy",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:name",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:createTs",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:sysTenantId",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:id",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:scopes",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleEntity:updateTs",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:captionPosition",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:parent",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:visible",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:caption",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:styleName",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:parameterName",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:required",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:enabled",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:operationEditable",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:localizedCaption",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:property",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:operationCaptionVisible",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:operation",
+          "value": 2
+        },
+        {
+          "target": "ui_PropertyFilterCondition:valueComponent",
+          "value": 2
+        },
+        {
+          "target": "sys_LockInfo:id",
+          "value": 2
+        },
+        {
+          "target": "sys_LockInfo:objectId",
+          "value": 2
+        },
+        {
+          "target": "sys_LockInfo:objectType",
+          "value": 2
+        },
+        {
+          "target": "sys_LockInfo:since",
+          "value": 2
+        },
+        {
+          "target": "sys_LockInfo:username",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:settings",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:isDefault",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:updatedBy",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:createdBy",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:name",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:createTs",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:sysTenantId",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:id",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:autoSave",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:updateTs",
+          "value": 2
+        },
+        {
+          "target": "ui_TablePresentation:username",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:parent",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:visible",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:ownFilterConditions",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:localizedCaption",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:operationCaptionVisible",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:caption",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:styleName",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:operation",
+          "value": 2
+        },
+        {
+          "target": "ui_GroupFilterCondition:enabled",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:rootCondition",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:name",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:sysTenantId",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:id",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:configurationId",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:defaultForMe",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:defaultForAll",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterConfiguration:username",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:deleteTs",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:updatedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:createdBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:roleCode",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:createTs",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:id",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:roleType",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:version",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:updateTs",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:deletedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RoleAssignmentEntity:username",
+          "value": 2
+        },
+        {
+          "target": "Repository:owner",
+          "value": 2
+        },
+        {
+          "target": "Repository:stargazersCount",
+          "value": 2
+        },
+        {
+          "target": "Repository:name",
+          "value": 2
+        },
+        {
+          "target": "Repository:id",
+          "value": 2
+        },
+        {
+          "target": "ui_HeaderFilterCondition:parent",
+          "value": 2
+        },
+        {
+          "target": "ui_HeaderFilterCondition:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_HeaderFilterCondition:visible",
+          "value": 2
+        },
+        {
+          "target": "ui_HeaderFilterCondition:localizedCaption",
+          "value": 2
+        },
+        {
+          "target": "ui_HeaderFilterCondition:caption",
+          "value": 2
+        },
+        {
+          "target": "ui_HeaderFilterCondition:styleName",
+          "value": 2
+        },
+        {
+          "target": "ui_HeaderFilterCondition:enabled",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperation:mbean",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperation:name",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperation:description",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperation:id",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperation:parameters",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperation:returnType",
+          "value": 2
+        },
+        {
+          "target": "ui_ManagedBeanOperation:timeout",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterCondition:parent",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterCondition:componentId",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterCondition:visible",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterCondition:localizedCaption",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterCondition:caption",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterCondition:styleName",
+          "value": 2
+        },
+        {
+          "target": "ui_FilterCondition:enabled",
+          "value": 2
+        },
+        {
+          "target": "sec_BaseRoleModel:code",
+          "value": 2
+        },
+        {
+          "target": "sec_BaseRoleModel:customProperties",
+          "value": 2
+        },
+        {
+          "target": "sec_BaseRoleModel:name",
+          "value": 2
+        },
+        {
+          "target": "sec_BaseRoleModel:description",
+          "value": 2
+        },
+        {
+          "target": "sec_BaseRoleModel:id",
+          "value": 2
+        },
+        {
+          "target": "sec_BaseRoleModel:source",
+          "value": 2
+        },
+        {
+          "target": "sec_BaseRoleModel:childRoles",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:code",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:customProperties",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:resourcePolicies",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:name",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:description",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:scopes",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:id",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:source",
+          "value": 2
+        },
+        {
+          "target": "sec_ResourceRoleModel:childRoles",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:updatedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:code",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:description",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:version",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:childRoles",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:deletedBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:deleteTs",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:createdBy",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:name",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:rowLevelPolicies",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:createTs",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:sysTenantId",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:id",
+          "value": 2
+        },
+        {
+          "target": "sec_RowLevelRoleEntity:updateTs",
+          "value": 2
+        }
+      ]
+    }
+  }
+}
