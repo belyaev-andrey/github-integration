@@ -2,7 +2,7 @@
 <window xmlns="http://jmix.io/schema/ui/window"
         caption="msg://reposList.caption">
     <data>
-        <collection id="repositoriesDc" class="com.company.githubintegration.entity.Repository">
+        <collection id="repositoriesDc" class="com.company.githubintegration.entity.GitRepository">
             <fetchPlan extends="_base">
                 <property name="stargazersCount"/>
             </fetchPlan>
@@ -13,6 +13,7 @@
         <button id="doBtn" caption="Do"/>
         <dataGrid id="repositoriesTable" width="100%" dataContainer="repositoriesDc">
             <columns>
+                <column id="id" property="id"/>
                 <column id="name" property="name"/>
             </columns>
         </dataGrid>

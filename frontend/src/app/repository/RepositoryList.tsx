@@ -15,7 +15,7 @@ import {
     registerRoute,
     Spinner
 } from "@haulmont/jmix-react-ui";
-import {Repository} from "../../jmix/entities/Repository";
+import {GitRepository} from "../../jmix/entities/GitRepository";
 import {FormattedMessage} from "react-intl";
 import {gql, useQuery} from "@apollo/client";
 
@@ -27,6 +27,11 @@ const REPO_LIST = gql`
         repos(organization: "Haulmont") {
             id
             name
+            owner {
+              id
+              login
+              avatarUrl
+            }
         }
     }
 `;
@@ -41,16 +46,16 @@ const DELETE_REPO = gql`
     }
 `;
 
-const RepositoryList = observer((props: EntityListProps<Repository>) => {
+const RepositoryList = observer((props: EntityListProps<GitRepository>) => {
 
-    const {data} = useQuery<{repos: Repository[]}>(REPO_LIST)
+    const {data} = useQuery<{repos: GitRepository[]}>(REPO_LIST)
 
     if (!data) {
         return <Spinner/>
     }
 
     return (
-        <Table dataSource={data.repos} columns={[{title:"Id", dataIndex: "id"},{title: "Name", dataIndex: "name"}]}/>
+        <Table dataSource={data.repos} columns={[{title:"Id", dataIndex: "id"},{title: "Name", dataIndex: "name"},{title: "Owner", dataIndex: ["owner", "login"]}]}/>
     )
 });
 

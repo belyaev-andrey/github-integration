@@ -6,7 +6,7 @@ import io.jmix.core.metamodel.annotation.InstanceName;
 import io.jmix.core.metamodel.annotation.JmixEntity;
 
 @JmixEntity
-public class Repository {
+public class GitRepository {
 
     @JmixGeneratedValue
     @JmixId
@@ -17,7 +17,7 @@ public class Repository {
 
     private Long stargazersCount;
 
-    private UserInfo owner;
+    private OwnerInfo owner;
 
     public Long getId() {
         return id;
@@ -26,7 +26,6 @@ public class Repository {
     public void setId(Long id) {
         this.id = id;
     }
-
 
     public String getName() {
         return name;
@@ -44,11 +43,11 @@ public class Repository {
         this.stargazersCount = stargazersCount;
     }
 
-    public UserInfo getOwner() {
+    public OwnerInfo getOwner() {
         return owner;
     }
 
-    public void setOwner(UserInfo owner) {
+    public void setOwner(OwnerInfo owner) {
         this.owner = owner;
     }
 }

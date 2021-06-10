@@ -6,7 +6,7 @@ import io.jmix.core.metamodel.annotation.InstanceName;
 import io.jmix.core.metamodel.annotation.JmixEntity;
 
 @JmixEntity
-public class UserInfo {
+public class OwnerInfo {
 
     @JmixGeneratedValue
     @JmixId
@@ -16,10 +16,6 @@ public class UserInfo {
     private String login;
 
     private String avatarUrl;
-
-    private String email;
-
-    private String company;
 
     public Long getId() {
         return id;
@@ -45,19 +41,4 @@ public class UserInfo {
         this.avatarUrl = avatarUrl;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getCompany() {
-        return company;
-    }
-
-    public void setCompany(String company) {
-        this.company = company;
-    }
 }
