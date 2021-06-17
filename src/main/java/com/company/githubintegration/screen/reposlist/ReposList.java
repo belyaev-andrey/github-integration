@@ -23,8 +23,8 @@ public class ReposList extends Screen {
     @Autowired
     private CollectionLoader<GitRepository> repositoriesDl;
 
-    @Subscribe("doBtn")
-    public void onDoBtnClick(Button.ClickEvent event) {
+    @Subscribe
+    public void onBeforeShow(BeforeShowEvent event) {
         repositoriesDl.load();
     }
 

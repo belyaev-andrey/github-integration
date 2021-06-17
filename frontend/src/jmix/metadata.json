@@ -1,8 +1,8 @@
 {
   "entities": [
     {
-      "name": "Repository",
-      "className": "Repository",
+      "name": "GitRepository",
+      "className": "GitRepository",
       "attributes": [
         {
           "name": "id",
@@ -47,13 +47,58 @@
           "name": "owner",
           "type": {
             "packageName": "com.company.githubintegration.entity",
-            "className": "UserInfo",
-            "fqn": "com.company.githubintegration.entity.UserInfo",
-            "label": "UserInfo",
-            "entityName": "UserInfo"
+            "className": "OwnerInfo",
+            "fqn": "com.company.githubintegration.entity.OwnerInfo",
+            "label": "OwnerInfo",
+            "entityName": "OwnerInfo"
           },
           "mappingType": "ASSOCIATION",
           "cardinality": "ONE_TO_ONE",
+          "readOnly": false,
+          "mandatory": false,
+          "transient": false
+        }
+      ]
+    },
+    {
+      "name": "OwnerInfo",
+      "className": "OwnerInfo",
+      "attributes": [
+        {
+          "name": "id",
+          "type": {
+            "packageName": "java.lang",
+            "className": "Long",
+            "fqn": "java.lang.Long",
+            "label": "Long"
+          },
+          "mappingType": "DATATYPE",
+          "readOnly": false,
+          "mandatory": false,
+          "transient": false
+        },
+        {
+          "name": "login",
+          "type": {
+            "packageName": "java.lang",
+            "className": "String",
+            "fqn": "java.lang.String",
+            "label": "String"
+          },
+          "mappingType": "DATATYPE",
+          "readOnly": false,
+          "mandatory": false,
+          "transient": false
+        },
+        {
+          "name": "avatarUrl",
+          "type": {
+            "packageName": "java.lang",
+            "className": "String",
+            "fqn": "java.lang.String",
+            "label": "String"
+          },
+          "mappingType": "DATATYPE",
           "readOnly": false,
           "mandatory": false,
           "transient": false
@@ -181,77 +226,6 @@
           "readOnly": false,
           "mandatory": false,
           "transient": true
-        }
-      ]
-    },
-    {
-      "name": "UserInfo",
-      "className": "UserInfo",
-      "attributes": [
-        {
-          "name": "id",
-          "type": {
-            "packageName": "java.lang",
-            "className": "Long",
-            "fqn": "java.lang.Long",
-            "label": "Long"
-          },
-          "mappingType": "DATATYPE",
-          "readOnly": false,
-          "mandatory": false,
-          "transient": false
-        },
-        {
-          "name": "login",
-          "type": {
-            "packageName": "java.lang",
-            "className": "String",
-            "fqn": "java.lang.String",
-            "label": "String"
-          },
-          "mappingType": "DATATYPE",
-          "readOnly": false,
-          "mandatory": false,
-          "transient": false
-        },
-        {
-          "name": "avatarUrl",
-          "type": {
-            "packageName": "java.lang",
-            "className": "String",
-            "fqn": "java.lang.String",
-            "label": "String"
-          },
-          "mappingType": "DATATYPE",
-          "readOnly": false,
-          "mandatory": false,
-          "transient": false
-        },
-        {
-          "name": "email",
-          "type": {
-            "packageName": "java.lang",
-            "className": "String",
-            "fqn": "java.lang.String",
-            "label": "String"
-          },
-          "mappingType": "DATATYPE",
-          "readOnly": false,
-          "mandatory": false,
-          "transient": false
-        },
-        {
-          "name": "company",
-          "type": {
-            "packageName": "java.lang",
-            "className": "String",
-            "fqn": "java.lang.String",
-            "label": "String"
-          },
-          "mappingType": "DATATYPE",
-          "readOnly": false,
-          "mandatory": false,
-          "transient": false
         }
       ]
     }

@@ -1,6 +1,7 @@
 package com.company.githubintegration.repository;
 
 import com.company.githubintegration.entity.GitRepository;
+import io.jmix.core.repository.ApplyConstraints;
 import io.leangen.graphql.annotations.GraphQLMutation;
 import io.leangen.graphql.annotations.GraphQLQuery;
 import io.leangen.graphql.spqr.spring.annotations.GraphQLApi;
@@ -14,7 +15,7 @@ import java.util.List;
 
 @GraphQLApi
 @FeignClient(name="GitHubClient", configuration = GitHubConfiguration.class, url = GitHubConfiguration.BASE_URL)
-public interface GitHubRepository extends Repository<GitRepository, Long> {
+public interface GitHubRepository {
 
     @GraphQLQuery
     @RequestMapping(method = RequestMethod.GET, path = "/orgs/{org}/repos")

@@ -7,7 +7,9 @@ export class GitRepository {
   owner?: OwnerInfo | null;
 }
 export type GitRepositoryViewName = "_base" | "_instance_name" | "_local";
-export type GitRepositoryView<V extends GitRepositoryViewName> = V extends "_base"
+export type GitRepositoryView<
+  V extends GitRepositoryViewName
+> = V extends "_base"
   ? Pick<GitRepository, "id" | "name">
   : V extends "_instance_name"
   ? Pick<GitRepository, "id" | "name">

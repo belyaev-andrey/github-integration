@@ -10,7 +10,6 @@
         </collection>
     </data>
     <layout expand="repositoriesTable">
-        <button id="doBtn" caption="Do"/>
         <dataGrid id="repositoriesTable" width="100%" dataContainer="repositoriesDc">
             <columns>
                 <column id="id" property="id"/>
