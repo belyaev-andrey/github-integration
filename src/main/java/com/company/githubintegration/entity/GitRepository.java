@@ -8,7 +8,6 @@ import io.jmix.core.metamodel.annotation.JmixEntity;
 @JmixEntity
 public class GitRepository {
 
-    @JmixGeneratedValue
     @JmixId
     private Long id;
 

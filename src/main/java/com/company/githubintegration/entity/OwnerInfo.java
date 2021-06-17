@@ -8,7 +8,6 @@ import io.jmix.core.metamodel.annotation.JmixEntity;
 @JmixEntity
 public class OwnerInfo {
 
-    @JmixGeneratedValue
     @JmixId
     private Long id;
 

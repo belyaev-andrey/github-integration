@@ -23,39 +23,33 @@ const ENTITY_NAME = "Repository";
 const ROUTING_PATH = "/repositoryList";
 
 const REPO_LIST = gql`
-    query ReposListList {
-        repos(organization: "Haulmont") {
-            id
-            name
-            owner {
-              id
-              login
-              avatarUrl
-            }
-        }
+  query {
+    findByOwnerLogin (organization : "Haulmont") {
+      id
+      name
+      owner {
+        id
+      }
     }
+  }
 `;
 
 const DELETE_REPO = gql`
-    mutation ReposDelete {
-        mutation {
-            deleteRepo (owner: "belyaev-andrey", repo: "VsuTest") {
-                name
-            }
-        }
-    }
+  mutation {
+    deleteByOwnerAndName(owner: "belyaev-andrey", repo: "VsuTest")
+  }
 `;
 
 const RepositoryList = observer((props: EntityListProps<GitRepository>) => {
 
-    const {data} = useQuery<{repos: GitRepository[]}>(REPO_LIST)
+    const {data} = useQuery<{findByOwnerLogin: GitRepository[]}>(REPO_LIST)
 
     if (!data) {
         return <Spinner/>
     }
 
     return (
-        <Table dataSource={data.repos} columns={[{title:"Id", dataIndex: "id"},{title: "Name", dataIndex: "name"},{title: "Owner", dataIndex: ["owner", "login"]}]}/>
+        <Table dataSource={data.findByOwnerLogin} columns={[{title:"Id", dataIndex: "id"},{title: "Name", dataIndex: "name"},{title: "Owner", dataIndex: ["owner", "login"]}]}/>
     )
 });
 
